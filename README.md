@@ -3,7 +3,10 @@
 To use the script, insert this HTML:
 
 ```html
-<script src="path-to-script" async></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/zencap5/sheetscms@0.1/script.min.js"
+  async
+></script>
 ```
 
 On the page, you can create as many "templates" as you'd like. A template is an HTML element with the `data-sheets-cms` attribute, like so:
